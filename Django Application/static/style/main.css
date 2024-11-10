@@ -1,0 +1,155 @@
+
+      .hero-section {
+    position: relative;
+    border-radius: 8px;
+    height: 75px;
+    background-image: url('/static/images/image.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+      .carousel-inner {
+    height: 50vh; /* 50% of the viewport height */
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero-title {
+    margin: 0;
+    font-size: 3rem; /* Increased size for emphasis */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* More pronounced shadow */
+    letter-spacing: 2px; /* Increased letter spacing */
+    transition: transform 0.3s; /* Smooth scaling effect on hover */
+}
+
+.hero-title:hover {
+    transform: scale(1.05); /* Slightly enlarge title on hover */
+}
+
+.hero-subtitle {
+    margin-top: 10px; /* Spacing above subtitle */
+    font-size: 1.5rem; /* Increased size for better visibility */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8); /* Shadow for depth */
+    line-height: 1.4; /* Increased line height for better readability */
+    letter-spacing: 1px; /* Slight letter spacing */
+}
+
+/* Adjust the subtitle container to center-align content */
+.subtitle-container {
+    text-align: center;
+    margin: 50px 0;
+}
+
+        .subtitle {
+            font-size: 1em;
+            font-weight: bold;
+            color: #333;
+            text-transform: uppercase;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 10px;
+            display: inline-block;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+      .carousel-indicators {
+    position: absolute;
+    bottom: 20px; /* Adjust as necessary to position indicators */
+    left: 50%;
+    transform: translateX(-50%); /* Center indicators */
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-indicators button {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    border: none; /* Remove default border */
+    border-radius: 50%; /* Make them circular */
+    width: 12px; /* Set width */
+    height: 12px; /* Set height */
+    margin: 0 5px; /* Space between buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition effect */
+}
+
+.carousel-indicators button.active {
+    background-color: #ffffff; /* Fully opaque white for active */
+}
+
+.carousel-indicators button:hover {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly more opaque on hover */
+    transform: scale(1.2); /* Scale up on hover */
+}
+
+/* Styling for carousel items */
+.carousel-inner {
+    position: relative;
+    height: 200px; /* Set a specific height */
+}
+
+.carousel-item {
+    height: 100%; /* Fill the height of the inner container */
+}
+
+.carousel-item img {
+    height: 100%; /* Ensure image fills the carousel item height */
+    width: 100%; /* Ensure image fills the width */
+    object-fit: cover; /* Maintain aspect ratio */
+}
+
+/* Styling for the previous and next buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    border: none; /* Remove borders */
+    color: white; /* White arrow color */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    border-radius: 50%; /* Circular buttons */
+    display: flex; /* Use flex to center icon */
+    justify-content: center; /* Center icon */
+    align-items: center; /* Center icon */
+    transition: background-color 0.3s; /* Smooth background transition */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker on hover */
+}
+
+/* Specific adjustments for the icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: transparent; /* Remove default background */
+    border: none; /* Remove border on icons */
+    filter: invert(1); /* Invert colors to make arrows white */
+}
+
+/* Optional: Hiding button text visually for accessibility */
+.visually-hidden {
+    display: none; /* Hide visually but keep available for screen readers */
+}
+
+
+
+
+
+        .jumbotron-custom {
+            background-color: #6c757d;
+            color: white;
+        }
+        .jumbotron-custom p {
+            color: #0a3622;
+        }
